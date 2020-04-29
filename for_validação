@@ -1,0 +1,24 @@
+
+/* 
+    escreva na tela "Me Salva!" 5 vezes
+    
+    Pseudo-code
+    for (cont = 0; cont<5; cont=cont+1)
+        {
+            ...
+        }
+*/
+
+#include <stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+
+    int i;
+    for(i=0; i<5; i++)
+    {
+        printf("Me Salva! \n" i);
+    }
+    return 0;
+}
